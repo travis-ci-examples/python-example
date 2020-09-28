@@ -1,1 +1,14 @@
-pytest
+pyhive[hive]==0.6.2
+grpcio==1.28.1
+google-cloud-bigquery[bqstorage,pandas,pyarrow]==1.24.0
+google-cloud-storage==1.28.0
+pandas>=1.0.3
+pydata-google-auth==1.1.0
+hmsclient==0.1.1
+
+pytest==5.3.2
+pytest-integration==0.2.2
+pytest-cov==2.8.1
+pytest-mock==2.0.0
+pytest-watch==4.2.0
+pycodestyle==2.5.0

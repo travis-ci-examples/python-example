@@ -1,6 +1,19 @@
-language: python
+language: generic
 sudo: false
-python:
-- 2.7
-- 3.4
-script: py.test -v
+os: osx
+install:
+  # We do this conditionally because it saves us some downloading if the
+  # version is the same.
+  - wget https://repo.anaconda.com/archive/Anaconda3-2020.07-MacOSX-x86_64.sh -O anaconda.sh;
+  - bash anaconda.sh -b -p $HOME/anaconda
+  - source "$HOME/anaconda/etc/profile.d/conda.sh"
+  - hash -r
+  - conda config --set always_yes yes --set changeps1 no
+  - conda update -q conda
+  # Useful for debugging any issues with conda
+  - conda info -a
+  - conda init
+  - conda activate base
+  - pip install -r requirements.txt
+
+script: python py.test -v
