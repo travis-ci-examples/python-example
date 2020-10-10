@@ -5,4 +5,8 @@ python:
 - 3.4
 - 3.9
 - 3.7
+env: BUILDER=false
+before_script:
+- printenv BUILDER
+- echo "test"
 script: py.test -v
