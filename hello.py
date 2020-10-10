@@ -12,6 +12,8 @@ def say_what():
 
 def main():
     hello(say_what())
+    print('xD')
+    print('xD')
     return 0
 
 
