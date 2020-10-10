@@ -8,8 +8,6 @@ def hello(what):
 def say_what():
     return 'world'  
 
-
-
 def main():
     hello(say_what())
     return 0
