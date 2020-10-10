@@ -12,6 +12,7 @@ def say_what():
 
 def main():
     print("Hello World")
+    prinSSSt("Hello World")
     hello(say_what())
     return 0
 
