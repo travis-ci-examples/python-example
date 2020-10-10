@@ -4,6 +4,7 @@ import sys
 
 def hello(what):
     print('Hello, {}!'.format(what))
+    print('xDD')
 
 
 def say_what():
