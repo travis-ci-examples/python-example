@@ -7,8 +7,7 @@ def hello(what):
 
 
 def say_what():
-    print('No jednak nie.')
-    return 'wrold'
+    return 'world'
 
 
 def main():
