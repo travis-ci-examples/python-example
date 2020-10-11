@@ -1,9 +1,6 @@
 from hello import *
 
 
-def test_says_world():
-    assert hello(say_what()) == 'world'
-
 def test_1():
     assert add_numbers(2, 2) == 4
 def test_2():
