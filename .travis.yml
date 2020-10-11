@@ -1,9 +1,12 @@
 language: python
 sudo: false
+env:
+  - ENV_VALUE=env_variable
 python:
 - 2.7
 - 3.4
 - 3.1
 before_script:
 - echo "echo before script"
+- echo $ENV_VALUE
 script: py.test -v
