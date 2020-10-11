@@ -1,6 +1,9 @@
 language: python
+CI: true
 sudo: false
 python:
 - 2.7
 - 3.4
+- 3.7
+before_script: echo "Printing before script"
 script: py.test -v
