@@ -12,7 +12,7 @@ def say_what():
 
 def main():
     hello(say_what())
-    print('lol')
+    print('lol1')
     print('xd')
     return 0
 
