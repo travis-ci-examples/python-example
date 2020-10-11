@@ -1,2 +1,2 @@
 # python-example
-https://travis-ci.org/Gleaken/python-example.svg?branch=master&status=passed
+[![Build Status](https://travis-ci.org/Gleaken/python-example.svg?branch=master)](https://travis-ci.org/Gleaken/python-example)
