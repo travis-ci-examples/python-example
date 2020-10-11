@@ -2,7 +2,7 @@ from __future__ import print_function
 import sys
 
 
-def hello(what):
+def hello(whaaat):
     print('Hello, {}!'.format(what))
 
 
