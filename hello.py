@@ -10,7 +10,8 @@ def say_what():
     return 'world'
 
 def add_numbers(a, b):
-    return a+b
+    result = a+b
+    return result
 
 def main():
     hello(say_what())
