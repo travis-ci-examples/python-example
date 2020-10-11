@@ -1,4 +1,4 @@
-import hello
+from hello import *
 
 
 def test_says_world():
