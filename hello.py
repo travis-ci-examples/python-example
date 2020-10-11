@@ -3,7 +3,7 @@ import sys
 
 
 def hello(what):
-    print('Hello, {}!'.format(what))
+    print('Heeeello, {}!'.format(what))
 
 
 def say_what():
