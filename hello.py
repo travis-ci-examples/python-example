@@ -7,11 +7,17 @@ def hello(what):
 
 
 def say_what():
-    return 'wor'
+    return 'world'
 
+def add_numbers(a, b):
+    return a+b
 
 def main():
     hello(say_what())
+    add_numbers(2, 2)
+    add_numbers(3, 3)
+    add_numbers(4, 4)
+    add_numbers(5, 5)
     print('lol1')
     print('xd')
     return 0
