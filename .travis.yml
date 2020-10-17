@@ -1,6 +1,12 @@
 language: python
 sudo: false
+env:
+  global:
+    - GUOS=HauHau
 python:
 - 2.7
 - 3.4
-script: py.test -v
+- 3.8
+script: 
+  - echo $GUOS
+  - py.test -v
