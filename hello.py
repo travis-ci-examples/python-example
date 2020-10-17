@@ -5,10 +5,8 @@ import sys
 def hello(what):
     print('Hello, {}!'.format(what))
 
-
 def say_what():
-    return 'world'
-
+    return 'world failing'  
 
 def main():
     hello(say_what())
